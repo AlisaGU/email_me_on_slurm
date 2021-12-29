@@ -20,7 +20,7 @@ do
     done
 done
 
-echo  "submit"  |mail  -s "${!para_count} submit"  gushanshan2019@sibs.ac.cn
+echo  "submit"  |mail  -s "${!para_count} submit"  xxx@email.com
 
 RUNNING_count=0
 for ((i=1; i<=$para_count1; i++))
@@ -49,7 +49,7 @@ done
 
 if [ $COMPLETED_count -eq $para_count1 ]
 then
-    echo  "done"  |mail  -s "${!para_count} done"  gushanshan2019@sibs.ac.cn
+    echo  "done"  |mail  -s "${!para_count} done"  xxx@email.com
 else
-    echo  "failed"  |mail  -s "${!para_count} failed"  gushanshan2019@sibs.ac.cn
+    echo  "failed"  |mail  -s "${!para_count} failed"  xxx@email.com
 fi
