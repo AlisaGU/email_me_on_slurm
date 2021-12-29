@@ -11,6 +11,6 @@ email_me 1 2 3 "test" &
 ```
 When job 1 2 and 3 are submitted successfully (this is RUNNING), you will receive a email reminding you that these jobs have been submitted.
 
-When job 1 2 and 3 are Finished(COMPLETED or FAILED OR CANCELED), you will receive another email about these jobs' status.
+When job 1 2 and 3 are Finished (COMPLETED or FAILED OR CANCELED), you will receive another email about these jobs' status.
 
 Please feel free to contact me if you have any suggestion!
